@@ -61,7 +61,7 @@ GPU/花費:
 
 * 🌎 [Parsec](https://parsecgaming.com/downloads): 點進去安裝即可~
 
-* 🌁 [申請 GCP GPU 一顆](https://github.com/superj80820/cloud-gaming/blob/master/GUPApply.md): 點進去看申請教學!
+* 🌁 [申請 GCP GPU 一顆](https://github.com/superj80820/cloud-gaming/blob/master/tutorial/applyGPU.md): 點進去看申請教學!
 
 * 🖥 你想玩的遊戲! 我這邊用Steam來介紹
 
