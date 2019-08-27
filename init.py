@@ -77,6 +77,23 @@ def createInstance():
     answers["zone"] = gpuAnswers.group(1)
     answers["gpu"] = gpuAnswers.group(2)
 
+    preemptibleQuestions = [
+        {
+            'type': 'list',
+            'name': 'preemptible',
+            'message': 'Are you want preemptible?',
+            'choices': [
+                "Yes",
+                "No"
+            ]
+        }
+    ]
+    preemptibleAnswers = prompt(preemptibleQuestions)["preemptible"]
+    if  preemptibleAnswers == "Yes":
+        answers["preemptible"] = "--preemptible"
+    elif preemptibleAnswers == "No":
+        answers["preemptible"] = ""
+
     helper.execCmd("""
 gcloud compute instances create gaming-instance \
     --zone={} \
@@ -88,10 +105,10 @@ gcloud compute instances create gaming-instance \
     --image-project=windows-cloud \
     --boot-disk-size=150GB \
     --boot-disk-type=pd-ssd \
-    --preemptible \
+    {} \
     --no-boot-disk-auto-delete \
     --metadata-from-file windows-startup-script-ps1=install_check.ps1
-""".format(answers["zone"], answers["gpu"]))
+""".format(answers["zone"], answers["gpu"], answers["preemptible"]))
 
 if __name__ == '__main__':
     selectProject()
