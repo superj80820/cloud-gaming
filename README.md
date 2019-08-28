@@ -69,18 +69,6 @@ GPU/花費:
 
 [![Open in Cloud Shell](https://i.imgur.com/xz43E92.png)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fsuperj80820%2Fcloud-gaming.git&cloudshell_tutorial=tutorial/createInstance.md)
 
-## 為了省免費額度的方法
-
-我使用了**先佔狀態**來創建虛擬機 意思是使用Google 剩餘的GPU來進行遊戲
-
-所以使用24小時候 虛擬機會被刪除 但是硬碟不會被刪除 如果虛擬機被刪除
-
-可以執行下方程式碼利用原本的硬碟重新建立虛擬機 並且不用重新設定虛擬機
-
-```
-./migration.sh
-```
-
 ## 聯繫
 <a href="https://discord.gg/dCGHvc4">
   <img hspace="3" alt="Discord channel" src="https://camo.githubusercontent.com/e4a739df27356a78e9cae2e2dda642d118567e7c/68747470733a2f2f737465616d63646e2d612e616b616d616968642e6e65742f737465616d636f6d6d756e6974792f7075626c69632f696d616765732f636c616e732f32373039303534312f386464356339303766326130656563623733646336613437373666633961323538373865626364642e706e67" width=150px/>
