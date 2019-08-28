@@ -1,18 +1,14 @@
 <div align="center">
-    <a href="https://gridea.dev">
-        <img src="https://i.imgur.com/hPEhsbM.png" width="80px">
-    </a>
+    <img src="https://i.imgur.com/hPEhsbM.png" width="80px">
     <h1 align="center">
-   cloud-gaming
-  </h1>
+      cloud-gaming
+    </h1>
     <h3 align="center">
-    一起來雲端遊戲吧！
-  </h3>
-
+      一起來雲端遊戲吧！
+    </h3>
   <a href="https://github.com/getgridea/gridea/releases/latest">
     <img src="https://img.shields.io/github/release/getgridea/gridea.svg?style=flat-square" alt="">
   </a>
-
   <a href="https://github.com/getgridea/gridea/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/getgridea/gridea.svg?style=flat-square" alt="">
   </a>
