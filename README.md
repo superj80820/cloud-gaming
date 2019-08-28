@@ -61,9 +61,17 @@ GPU/花費:
 
 * 🖥 你想玩的遊戲! 我這邊用Steam來介紹
 
-## 開始吧！
+## 開始吧!👇
 
 [![Open in Cloud Shell](https://i.imgur.com/xz43E92.png)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fsuperj80820%2Fcloud-gaming.git&cloudshell_tutorial=tutorial/createInstance.md)
+
+## 其他有趣的方案👇
+
+🌱 其實不只GCP 有許多雲端虛擬機供應商都可以做雲端遊戲 以下整理了一些方法
+
+* ✍️ 利用AWS EC2來玩: [請點我](https://github.com/superj80820/cloud-gaming/blob/master/tutorial/ec2Set.md)
+
+🏷️ 如果有新的Idea 歡迎利用下方Discord聯繫, 開Issue給我!
 
 ## 聯繫
 <a href="https://discord.gg/dCGHvc4">
