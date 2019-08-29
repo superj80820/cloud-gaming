@@ -17,6 +17,6 @@
 ![](https://i.imgur.com/NRywiAu.png)
 7. 幾分鐘後 就會收到Google寄過來的審核信
 ![](https://i.imgur.com/G9LFquO.png)
-8. 通才在兩三天內 就會獲得GPU審核通過的通知信 我是一天內收到
+8. 官方說通常在兩三天內就會獲得GPU審核通過的通知信 我是一小時內收到
 ![](https://i.imgur.com/uelFmkK.png)
 ![](https://i.imgur.com/FGVNxdN.png)
