@@ -12,6 +12,7 @@
 
 ##  初始化專案
 
+請複製此指令到Cloud-Shell執行 並等待執行完畢
 ```
 sudo pip3 install pipenv &&\
 pipenv --three &&\
@@ -20,7 +21,7 @@ pipenv install
 
 ## 選擇專案Id 並建立遊戲虛擬機
 
-創建虛擬機
+請複製此指令到Cloud-Shell執行 並開始選擇創建選項
 ```
 pipenv run python init.py
 ```
@@ -28,7 +29,7 @@ pipenv run python init.py
 接下來會出現幾個選項
 1. `Please select your project` > 請選擇你的專案
 2. `Please select your country` > 請選擇離你最近的國家 這樣串流會最穩定
-3. `Are you want preemptible` > 詢問你是否想使用**先佔狀態** Cloud-gaming建議你使用 因為價格更為便宜
+3. `Are you want preemptible` > 詢問你是否想使用**先佔狀態** Cloud-gaming建議你使用 因為價格更為便宜 關於什麼是先站狀態可以點選此[連結](https://github.com/superj80820/cloud-gaming/blob/master/tutorial/Q&A.md#%E5%8D%87%E7%B4%9A%E4%BB%98%E8%B2%BB%E5%B8%B3%E6%88%B6%E6%9C%83%E9%9C%80%E8%A6%81%E9%8C%A2%E5%97%8E)
 4. 等待虛擬機建立完畢~!
 
 ## 創建遊戲虛擬機完成了!
