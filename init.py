@@ -51,19 +51,19 @@ def createInstance():
 
     if answers["country"] == "Taiwan":
         choices = [
-            "asia-east1-a/nvidia-tesla-p100",
-            "asia-east1-c/nvidia-tesla-p100",
-            "asia-east1-c/nvidia-tesla-v100"
+            "asia-east1-a/nvidia-tesla-p100-vws",
+            "asia-east1-c/nvidia-tesla-p100-vws",
+            "asia-east1-c/nvidia-tesla-v100-vws"
         ]
     elif answers["country"] == "Japan":
         choices = [
-            "asia-northeast1-a/nvidia-tesla-t4"
+            "asia-northeast1-a/nvidia-tesla-t4-vws"
         ]
     elif answers["country"] == "Singapore":
         choices = [
-            "asia-southeast1-b/nvidia-tesla-p4",
-            "asia-southeast1-b/nvidia-tesla-p100",
-            "asia-southeast1-c/nvidia-tesla-v100"
+            "asia-southeast1-b/nvidia-tesla-p4-vws",
+            "asia-southeast1-b/nvidia-tesla-p100-vws",
+            "asia-southeast1-c/nvidia-tesla-v100-vws"
         ]
     gpuQuestions = [
         {
