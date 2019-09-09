@@ -53,7 +53,7 @@ def createInstance():
         {
             'type': 'list',
             'name': 'cpu',
-            'message': 'Please select your cpu',
+            'message': 'Please select your CPU',
             'choices': [
                 "8-cpu",
                 "4-cpu"
