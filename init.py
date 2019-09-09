@@ -49,6 +49,23 @@ def createInstance():
     ]
     answers.update(prompt(countryQuestions))
 
+    cpuQuestions = [
+        {
+            'type': 'list',
+            'name': 'cpu',
+            'message': 'Please select your cpu',
+            'choices': [
+                "8-cpu",
+                "4-cpu"
+            ]
+        }
+    ]
+    cpuMapping = {
+        "8-cpu": "n1-standard-8",
+        "4-cpu": "n1-standard-4"
+    }
+    answers.update(cpuMapping[prompt(cpuQuestions)["cpu"]])
+
     if answers["country"] == "Taiwan":
         choices = [
             "asia-east1-a/nvidia-tesla-p100-vws",
@@ -97,7 +114,7 @@ def createInstance():
     helper.execCmd("""
 gcloud compute instances create gaming-instance \
     --zone={} \
-    --machine-type=n1-standard-4 \
+    --machine-type={} \
     --maintenance-policy=TERMINATE \
     --accelerator=type={},count=1 \
     --tags=gaming-instance,http-server,https-server \
@@ -108,7 +125,7 @@ gcloud compute instances create gaming-instance \
     {} \
     --no-boot-disk-auto-delete \
     --metadata-from-file windows-startup-script-ps1=install_check.ps1
-""".format(answers["zone"], answers["gpu"], answers["preemptible"]))
+""".format(answers["zone"], answers["cpu"], answers["gpu"], answers["preemptible"]))
 
 if __name__ == '__main__':
     selectProject()
