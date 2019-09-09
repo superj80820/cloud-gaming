@@ -64,7 +64,7 @@ def createInstance():
         "8-cpu": "n1-standard-8",
         "4-cpu": "n1-standard-4"
     }
-    answers.update(cpuMapping[prompt(cpuQuestions)["cpu"]])
+    answers["cpu"] = cpuMapping[prompt(cpuQuestions)["cpu"]]
 
     if answers["country"] == "Taiwan":
         choices = [
