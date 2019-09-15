@@ -61,9 +61,9 @@ GPU/花費:
 
 ## 你需要準備👇
 
-* 📝 [chrome VNC](https://chrome.google.com/webstore/detail/vnc%C2%AE-viewer-for-google-ch/iabmpiboiopbgfabjmgeedhcmjenhbla): 點進去安裝即可~
+* 📝 [Chrome VNC](https://chrome.google.com/webstore/detail/vnc%C2%AE-viewer-for-google-ch/iabmpiboiopbgfabjmgeedhcmjenhbla): 點進去安裝即可~
 
-* 💬 [chrome RDP](https://chrome.google.com/webstore/detail/chrome-rdp-for-google-clo/mpbbnannobiobpnfblimoapbephgifkm): 點進去安裝即可~
+* 💬 [Chrome RDP](https://chrome.google.com/webstore/detail/chrome-rdp-for-google-clo/mpbbnannobiobpnfblimoapbephgifkm): 點進去安裝即可~
 
 * 🌎 [Parsec](https://parsecgaming.com/downloads): 點進去安裝即可~
 
