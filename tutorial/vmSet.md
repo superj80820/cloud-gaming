@@ -80,7 +80,7 @@ cloud-gaming已經幫把需要的驅動以及軟體自動化安裝
 
 ![](https://i.imgur.com/615ET5m.jpg)
 
-在正常網速網路下 串流的流暢度如下
+在45Mb網速網路下 串流的流暢度如下
 
 <div align="center">
   <img src="https://i.imgur.com/2kaZ3Iz.gif" width="700"/>
@@ -89,3 +89,7 @@ cloud-gaming已經幫把需要的驅動以及軟體自動化安裝
 ## 你想用手機來玩?
 
 好的 cloud-gaming聽到你的願望惹 請看這篇[教學](https://github.com/superj80820/cloud-gaming/blob/master/tutorial/phoneLink.md) 非常簡單
+
+## 問題解決
+
+* 如何解決 **Error Code: -1309 The hosting computer's resolution is too high**: [連結](https://github.com/superj80820/cloud-gaming/blob/master/tutorial/fixResolutionTooHight.md)
