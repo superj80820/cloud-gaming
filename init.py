@@ -49,6 +49,17 @@ def createInstance():
     ]
     answers.update(prompt(countryQuestions))
 
+    diskQuestions = [
+        {
+            'type': 'input',
+            'name': 'disk',
+            'message': 'Please input your disk (be higher than 80)',
+            'default': lambda _: "150",
+            'validate': lambda val: re.match('^[0-9]*$', val) is not None and int(val) >= 80 or 'Please input a number and be higher than 80'
+        }
+    ]
+    answers.update(prompt(diskQuestions))
+
     cpuQuestions = [
         {
             'type': 'list',
@@ -120,12 +131,12 @@ gcloud compute instances create gaming-instance \
     --tags=gaming-instance,http-server,https-server \
     --image=windows-server-2016-dc-v20190709 \
     --image-project=windows-cloud \
-    --boot-disk-size=150GB \
+    --boot-disk-size={}GB \
     --boot-disk-type=pd-ssd \
     {} \
     --no-boot-disk-auto-delete \
     --metadata-from-file windows-startup-script-ps1=install_check.ps1
-""".format(answers["zone"], answers["cpu"], answers["gpu"], answers["preemptible"]))
+""".format(answers["zone"], answers["cpu"], answers["gpu"], answers["disk"], answers["preemptible"]))
 
 if __name__ == '__main__':
     selectProject()

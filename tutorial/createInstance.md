@@ -29,10 +29,11 @@ pipenv run python init.py
 接下來會出現幾個選項
 1. `Please select your project` > 請選擇你的專案
 2. `Please select your country` > 請選擇離你最近的國家 這樣串流會最穩定
-3. `Please select your CPU` > 請選擇適合你的CPU數量 如果要玩一般的遊戲可選擇`4-cpu` 如果要玩高規格遊戲可選擇`8-cpu` CPU數量越多花費越高
-4. `Please select your GPU` > 請選擇想要使用的GPU
-5. `Are you want preemptible` > 詢問你是否想使用**先佔狀態** Cloud-gaming建議你使用 因為價格更為便宜 關於什麼是先站狀態可以點選此[連結](https://github.com/superj80820/cloud-gaming/blob/master/tutorial/Q&A.md#%E5%8D%87%E7%B4%9A%E4%BB%98%E8%B2%BB%E5%B8%B3%E6%88%B6%E6%9C%83%E9%9C%80%E8%A6%81%E9%8C%A2%E5%97%8E)
-6. 等待虛擬機建立完畢~!
+3. `Please input your disk (be higher than 80)` > 請輸入你的硬碟大小 並至少大於80GB
+4. `Please select your CPU` > 請選擇適合你的CPU數量 如果要玩一般的遊戲可選擇`4-cpu` 如果要玩高規格遊戲可選擇`8-cpu` CPU數量越多花費越高
+5. `Please select your GPU` > 請選擇想要使用的GPU
+6. `Are you want preemptible` > 詢問你是否想使用**先佔狀態** Cloud-gaming建議你使用 因為價格更為便宜 關於什麼是先站狀態可以點選此[連結](https://github.com/superj80820/cloud-gaming/blob/master/tutorial/Q&A.md#%E5%8D%87%E7%B4%9A%E4%BB%98%E8%B2%BB%E5%B8%B3%E6%88%B6%E6%9C%83%E9%9C%80%E8%A6%81%E9%8C%A2%E5%97%8E)
+7. 等待虛擬機建立完畢~!
 
 ## 創建遊戲虛擬機完成了!
 
